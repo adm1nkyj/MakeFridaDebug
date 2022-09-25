@@ -10,7 +10,7 @@ Customize the outfile, entryclass, extcp_build, and extcp_manifest properties.
 <project basedir="." default="build" name="jebplugin">
 
 
-    <property name="JEB_HOME" value="JEB_PAPH"/>
+    <property name="JEB_HOME" value="YOUR_JEB_PATH"/>
     <echo message="JEB_HOME: ${JEB_HOME}"/>
 
     <property name="jebjar" value="${JEB_HOME}/bin/app/jeb.jar"/>
